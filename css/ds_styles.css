@@ -1,0 +1,1187 @@
+/* Destination Sexy Landing Page */
+@font-face {
+  font-family: 'FuturaStd-Light';
+    src: url("fonts/FuturaStd-Light.woff") format('woff'); /* Pretty Modern Browsers */
+}
+
+html, body {
+    margin: 0;
+    font-family:  'FuturaStd-Light', Futura, Futura-Medium, "Futura Medium", "futura-pt", "Century Gothic", CenturyGothic, sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.container-fluid {
+  border-right: 4px solid #101010;
+  border-left: 4px solid #101010;
+}
+
+footer {
+    background-color: #101010;
+    color: white;
+    height: 4em;
+
+}
+
+footer > p {
+  padding:  0 1em;
+  margin-bottom: 0px !important;
+  padding-top: 1em;
+
+}
+/* ====  Navigation  ==== */
+
+
+.navi {
+    font-weight: 100;
+    font-size: 1.2em;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-variant: normal;
+    font-family: 'FuturaStd-Light', Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+.navi > li > a > span:hover {
+  color: #efefef !important;
+
+}
+
+.nav > li > a {
+
+    padding-right: 0px;
+}
+
+
+
+
+.la:active, .la:visited {
+
+	color: #f4bcd5;
+
+}
+
+.la {
+
+  color: #f4bcd5;
+
+}
+
+
+.la::after, .ny::after, .lv::after, .mia::after {
+  display: inline-block;
+  padding-left: 1.5em;
+  content: "/";
+  color: gray;
+}
+
+.lv {
+
+	
+}
+.ny {
+
+
+}
+.mia {
+
+	
+}
+.sweeps {
+
+	
+}
+
+
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.left-padding     {
+    padding-left: 0px !important;
+}
+
+/* ====  Headline animation  ==== */
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.transition-headline {
+  margin-top: 1em;
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+ 
+
+
+ 
+  .letter-4  { transition-delay: 1.0s; }
+  .letter-5  { transition-delay: 1.2s; }
+  .letter-6  { transition-delay: 1.4s; }
+  .letter-7  { transition-delay: 1.6s; }
+  .letter-8  { transition-delay: 1.8s; }
+  .letter-9  { transition-delay: 2.0s; }
+  .letter-10 { transition-delay: 2.2s; }
+  .letter-11 { transition-delay: 2.4s; }
+  .letter-12 { transition-delay: 2.6s; }
+  .letter-13 { transition-delay: 2.8s; }
+  .letter-14 { transition-delay: 3.0s; }
+  .letter-15 { transition-delay: 3.2s; }
+  .letter-16 { transition-delay: 3.4s; }
+  .letter-16 { transition-delay: 3.6s; }
+  
+ 
+  h1.transition-headline {
+    text-transform: uppercase;
+    padding: 20px;
+  }
+ 
+  h4.transition-headline {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    letter-spacing: .1em; 
+  }
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.letter-0 {
+-webkit-animation-delay: 0.25s;
+-moz-animation-delay: 0.25s;
+animation-delay: 0.25s;
+}
+
+.fade-in.letter-1 {
+-webkit-animation-delay: 0.35s;
+-moz-animation-delay:0.35s;
+animation-delay: 0.35s;
+}
+
+.fade-in.letter-2 {
+-webkit-animation-delay: 0.55s;
+-moz-animation-delay: 0.55s;
+animation-delay: 0.55s;
+}
+
+.fade-in.letter-3 {
+-webkit-animation-delay: 0.65s;
+-moz-animation-delay: 0.65s;
+animation-delay: 0.65s;
+}
+
+.fade-in.letter-4 {
+-webkit-animation-delay: 0.75s;
+-moz-animation-delay: 0.75s;
+animation-delay: 0.75s;
+}
+
+.fade-in.letter-5 {
+-webkit-animation-delay: 0.85s;
+-moz-animation-delay: 0.85s;
+animation-delay: 0.85s;
+}
+
+.fade-in.letter-6 {
+-webkit-animation-delay: 0.95s;
+-moz-animation-delay: 0.95s;
+animation-delay: 0.95s;
+}
+
+.fade-in.letter-7 {
+-webkit-animation-delay: 1.05s;
+-moz-animation-delay: 1.05s;
+animation-delay: 1.05s;
+}
+
+.fade-in.letter-8 {
+-webkit-animation-delay: 1.15s;
+-moz-animation-delay: 1.15s;
+animation-delay: 1.15s;
+}
+
+.fade-in.letter-9 {
+-webkit-animation-delay: 1.25s;
+-moz-animation-delay: 1.25s;
+animation-delay: 1.25s;
+}
+
+.fade-in.letter-10 {
+-webkit-animation-delay: 1.35s;
+-moz-animation-delay: 1.35s;
+animation-delay: 1.35s;
+}
+
+.fade-in.letter-11 {
+-webkit-animation-delay: 1.45s;
+-moz-animation-delay: 1.45s;
+animation-delay: 1.45s;
+}
+
+.fade-in.letter-12 {
+-webkit-animation-delay: 1.55s;
+-moz-animation-delay: 1.55s;
+animation-delay: 1.55s;
+}
+
+.fade-in.letter-13 {
+-webkit-animation-delay: 1.65s;
+-moz-animation-delay: 1.65s;
+animation-delay: 1.65s;
+}
+
+.fade-in.letter-14 {
+-webkit-animation-delay: 1.75s;
+-moz-animation-delay: 1.75s;
+animation-delay: 1.75s;
+}
+
+.fade-in.letter-15 {
+-webkit-animation-delay: 1.85s;
+-moz-animation-delay: 1.85s;
+animation-delay: 1.85s;
+}
+
+.fade-in.letter-16 {
+-webkit-animation-delay: 1.95s;
+-moz-animation-delay: 1.95s;
+animation-delay: 1.95s;
+}
+
+.fade-in.letter-17 {
+-webkit-animation-delay: 2.0s;
+-moz-animation-delay: 2.0s;
+animation-delay: 2.0s;
+}
+
+
+.fade-in.letter-18 {
+-webkit-animation-delay: 2.5s;
+-moz-animation-delay: 2.5s;
+animation-delay: 2.5s;
+}
+
+
+/* ====  Gradient  ==== */
+
+.gradient-box{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: #131313;
+    border: 10px solid transparent;
+    -moz-border-image: -moz-linear-gradient(right, #FC913A 0%, #FF4E50 100%);
+    -webkit-border-image: -webkit-linear-gradient(right, #FC913A 0%, #FF4E50 100%);
+    border-image: linear-gradient(to left, #FC913A 0%, #FF4E50 100%);
+    border-image-slice: 1;
+ }
+
+
+.guess_gradient  { 
+
+}
+
+/* ====  outline button  ==== */
+
+
+
+.btn.outline {
+    background: none;
+   /* padding: 21px 20px;*/
+}
+.btn-primary.outline {
+  color: #000;
+  background-color: white;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    
+    color: #007299;
+    box-shadow: none;
+}
+
+
+/* ====  scale  ==== */
+
+.fade-in {
+    transition: all .2s ease-in-out;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fade-in.rotate {
+    transition: all .2s ease-in-out;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp.fade-in.rotate  {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+
+.fade-in.rotate:hover {
+    -webkit-transform: scale(1.1);
+}
+
+
+/* ====  end scale ==== */
+
+.grow-btn { 
+   transition: all .2s ease-in-out;
+
+}
+.grow-btn:hover { 
+   -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+
+}
+
+
+.btn {
+    padding: 13px 24px;
+    border: 0 none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    /*margin-top: 1em;*/
+    margin-bottom: 1em;
+    border-radius: 0px;
+    margin-top: 1em;
+    transition: all .2s ease-in-out;
+    position: relative;
+
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    transition: all .2s ease-in-out; 
+}
+.btn:hover, .btn:active:hover, .btn.active:hover {
+  outline: 0 none;
+  background-color: #fffcdd;
+  color: #000 !important;
+  transition: all .2s ease-in-out; 
+  -webkit-transform: scale(1.05) !important;;
+  -moz-transform: scale(1.05) !important;;
+  -o-transform: scale(1.05) !important;;
+  transform: scale(1.05) !important; 
+  font-weight: 100;
+      -moz-box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.btn-color-01 {
+  background-image: url('../imgs/sec7_lower_nav_button-bg.png') !important;
+  max-width: 100%;
+  width: 450px;
+  height: 68px;
+   max-height: auto;
+ margin-top: -0.5em;
+   font-size: 24px;
+   letter-spacing: 0.1em;
+   font-weight: 200;
+   padding: 16px 24px;
+
+}
+
+.btn-color-01:hover {
+  background-image:
+      linear-gradient(129deg, rgba(249, 200, 222, 0.89) 0%, rgba(245, 185, 101, 0.89) 38%, rgba(245, 220, 106, 0.89) 71%, rgba(212, 235, 132, 0.89) 94%) !important;
+    position: relative;
+}
+
+
+
+.btn-color-02 {
+  background-image: url('../imgs/sec_button-001.png') !important;
+  max-width: 100%;
+  width: 224px;
+  height: 42px;
+   max-height: auto;
+   background-color: white;
+   z-index: 100;
+
+
+}
+
+.btn-color-02:hover {
+  background-image:
+      linear-gradient(to right, rgb(239, 229, 119) 0%, rgb(185, 228, 161) 83%, rgb(168, 228, 176) 100%) !important;
+    position: relative;
+}
+
+
+.btn-color-03 {
+  background-image: url('../imgs/sec_button-outonsunset.png') !important;
+  max-width: 100%;
+  width: 229px;
+  height: 42px;
+   max-height: auto;
+   background-color: white;
+
+}
+
+.btn-color-03:hover {
+  background-image:
+      linear-gradient(to right, rgb(239, 229, 119) 0%, rgb(185, 228, 161) 83%, rgb(168, 228, 176) 100%) !important;
+    position: relative;
+}
+
+.btn-color-04 {
+  background-image: url('../imgs/sec_button-poolside.png') !important;
+  max-width: 100%;
+  width: 182px;
+  height: 42px;
+   max-height: auto;
+   z-index: 100;
+
+}
+
+.btn-color-04:hover {
+  background-image:
+      linear-gradient(117deg, rgb(150, 228, 205) 22%, rgb(242, 197, 212) 77%) !important;
+    position: relative;
+}
+
+.btn-color-05 {
+  background-image: url('../imgs/sec_button-onthelist.png') !important;
+  max-width: 100%;
+  width: 163px;
+  height: 42px;
+   max-height: auto;
+   
+}
+
+.btn-color-05:hover {
+  background-image:
+      linear-gradient(to right, rgb(239, 229, 119) 0%, rgb(185, 228, 161) 83%, rgb(168, 228, 176) 100%) !important;
+    position: relative;
+}
+
+.btn-color-06 {
+  background-image: url('../imgs/sec_button-rooftop.png') !important;
+  max-width: 100%;
+  width: 175px;
+  height: 42px;
+   max-height: auto;
+ 
+}
+
+.btn-color-06:hover {
+  background-image:
+      linear-gradient(to right, rgb(244, 188, 213) 0%, rgb(240, 184, 150) 73%, rgb(239, 184, 120) 100%) !important;
+    position: relative;
+}
+
+
+.btn-color-07 {
+  background-image: url('../imgs/sec_button-hollywood.png') !important;
+  max-width: 100%;
+  width: 231px;
+  height: 42px;
+   max-height: auto;
+
+}
+
+.btn-color-07:hover {
+  background-image:
+      linear-gradient(117deg, rgb(150, 228, 205) 22%, rgb(242, 197, 212) 77%) !important;
+    position: relative;
+}
+
+.btn-color-08 {
+  background-image: url('../imgs/sec_button-mabilu.png') !important;
+  max-width: 100%;
+  width: 167px;
+  height: 42px;
+   max-height: auto;
+
+}
+
+.btn-color-08:hover {
+  background-image:
+      linear-gradient(129deg, rgba(249, 200, 222, 0.89) 0%, rgba(245, 185, 101, 0.89) 38%, rgba(245, 220, 106, 0.89) 71%, rgba(212, 235, 132, 0.89) 94%) !important;
+    position: relative;
+}
+
+
+.btn-color-09 {
+  background-image: url('../imgs/sec_button-sundayfunday.png') !important;
+  max-width: 100%;
+  width: 201px;
+  height: 42px;
+   max-height: auto;
+
+}
+.btn-color-09:hover {
+  background-image:
+      linear-gradient(to right, rgb(239, 229, 119) 0%, rgb(185, 228, 161) 83%, rgb(168, 228, 176) 100%) !important;
+    position: relative;
+}
+
+.btn-color-10 {
+  background-image: url('../imgs/sec_button-celebspotting.png') !important;
+  max-width: 100%;
+  width: 184px;
+  height: 42px;
+   max-height: auto;
+
+}
+
+.btn-color-10:hover {
+  background-image:
+      linear-gradient(to right, rgb(244, 188, 213) 0%, rgb(240, 184, 150) 73%, rgb(239, 184, 120) 100%) !important;
+    position: relative;
+}
+
+
+.btn-color-11 {
+  background-image: url('../imgs/sec_button-venice.png') !important;
+  max-width: 100%;
+  width: 178px;
+  height: 42px;
+   max-height: auto;
+
+}
+
+.btn-color-11:hover {
+  background-image:
+      linear-gradient(117deg, rgb(150, 228, 205) 22%, rgb(242, 197, 212) 77%) !important;
+    position: relative;
+}
+
+.btn-color-12 {
+  background-image: url('../imgs/sec_button-90210.png') !important;
+  max-width: 100%;
+  width: 200px;
+  height: 42px;
+   max-height: auto;
+
+}
+
+.btn-color-12:hover {
+  background-image:
+     linear-gradient(129deg, rgba(183, 193, 224, 0.89) 0%, rgba(173, 233, 242, 0.89) 38%, rgba(201, 232, 199, 0.89) 71%, rgba(237, 221, 142, 0.89) 94%) !important;
+    position: relative;
+}
+
+/* ====  headline section ==== */
+
+
+.headline-bg {
+  background-image: url('../imgs/sec1_top_headline-bg.png') !important;
+  max-width: 100%;
+  width: 780px;
+  height: 82px;
+  max-height: auto;
+}
+
+
+/* ====  sections ==== */
+
+
+
+
+.sec1_ourhometown-bg {
+
+  margin-top: 0%;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+
+
+}
+
+.sec1_ourhometown {
+  background-image: url('../imgs/dest_sexy_sec1_gometown.png');
+  width: 343px;
+  height: 106px;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin-top: -3em;
+  margin-left: 1em;
+  position: relative;
+  transition: all ease-in 1;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+
+}
+
+
+
+.sec1_girl-bg {
+    background-image: url('../imgs/dest_sexy_sec1_girl-bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    transition: all .2s ease-in-out;
+
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+   -webkit-transform: scale(1.05) !important;;
+  -moz-transform: scale(1.05) !important;;
+  -o-transform: scale(1.05) !important;;
+  transform: scale(1.05) !important; 
+}
+
+
+.sec1_girl-bg:hover {
+ transform: scale(1.1); 
+}
+
+.sec1_main-girl-lt {
+  width: 390px;
+  height: 635px;
+  max-width: 100%;
+  display: block;
+  transition: all .2s ease-in-out;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+-moz-transition: -moz-transform 2s ease-in-out;
+transition: transform 2s ease-in-out;
+
+}
+
+
+
+.sec2_lahands-bg {
+  background-image: url('../imgs/dest_sexy_sec2_LA-HANDS.png');
+  width: 288px;
+  height: 411px;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin-top: 3em;
+
+}
+
+
+.sec2_celebwishes-bg {
+  background-image: url('../imgs/dest_sexy_sec2_Celebrity-wishes.png');
+  width: 417px;
+  height: 141px;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin-top: 3em;
+
+}
+
+
+.sec2_swingirl-bg {
+  background-image: url('../imgs/dest_sexy_sec2_top_Swim-1.png');
+  width: 394px;
+  height: 786px;
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin-top: -19em;
+
+
+}
+
+.sec3-cali001 {
+  margin-top: 7em;
+
+}
+
+.sec3-cali002 {
+  margin-top: -1em;
+
+}
+
+.sec4-hw-guy {
+  margin-top: -15em;
+
+}
+
+
+.sec-4-girl {
+  margin-top: 8em;
+  
+}
+
+.sec5-hw-sign {
+   margin-top: -4em;
+
+}
+
+.sec5-girl-glasses {
+    margin-top: 8em;
+
+}
+
+.sec6-celeb-girl {
+    margin-top: -6em;
+  
+}
+
+.sec6-venice-guy {
+   margin-top: 14em;
+
+
+}
+
+.sec7-90210-girl-rt {
+   margin-top: -2em;
+   position: relative;
+
+}
+
+.sec7-90210-girl-lt {
+   margin-top: -2em;
+    position: relative;
+
+}
+
+.sec7-famous {
+   position: relative;
+   z-index: 100;
+
+}
+
+.sec7-wtn-palms {
+    margin-top: 4em;
+
+}
+/* ====  row center ==== */
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+/* ====  Gradient  ==== */
+
+
+
+/*body {
+  background: url('/assets/64531/green_suburb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+a:link, a:visited {
+  color:#eee;
+}
+
+.block {
+  background-color:rgba(0,0,0,0.2);
+    height:370px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.block-sm {
+    height:180px;
+}
+
+.btn-flat {
+    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+  border-radius:0px;
+    border-width:0;
+    background-image:none;
+    padding:16px;
+    margin:0 auto;
+    margin-top:15px;
+    width:70%;
+    font-size:20pt;
+}
+
+
+.carousel-inner img {
+  width:100%;
+    height:100%;
+}
+
+#myCarousel {
+  font-size:90%;
+}
+
+.carousel-controls-mini {
+  margin-left:42%;
+}
+
+.carousel-controls-mini > a {
+  border:1px solid #eee;
+    margin:1px;
+    width:20px;
+    display:block;
+    float:left;
+    text-align:center;
+}
+
+#carousel-bounding-box {
+  margin:0 auto;
+  width:300px;
+}
+*/
+
+
+
+/*=====================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1200px){
+ /* ====  row center ==== */
+
+  .headline-bg {
+  background-image: url('../imgs/sec1_top_headline-bg2.png') !important;
+  max-width: 100%;
+  width: 92.4%;
+  height: 76px;
+   max-height: auto;
+}
+}
+ 
+@media only screen and (max-width : 979px){
+ .headline-bg {
+  background-image: url('../imgs/sec1_top_headline-bg2.png') !important;
+  max-width: 100%;
+  width: 100%;
+  height: 76px;
+   max-height: auto;
+}
+}
+ 
+@media only screen and (max-width : 768px){
+ 
+.headline-bg {
+  background-image: url('../imgs/sec1_top_headline-bg2.png') !important;
+  max-width: 100%;
+  width: 728px;
+  height: 76px;
+   max-height: auto;
+
+}
+
+}
+ 
+@media only screen and (max-width : 480px){
+ .headline-bg {
+  background-image: url('../imgs/sec7_lower_nav_button-bg-sm2.png') !important;
+  max-width: 100%;
+  width: 322px;
+  height: 48px;
+   max-height: auto;
+   font-size: 1em !important;
+
+}
+
+
+h1.transition-headline {
+  font-size: 1.5em !important;
+   
+  }
+
+.sec2_swingirl-bg {
+    margin-top: 2em;
+
+}
+.sec3-cali001 {
+    margin-top: 2em;
+}
+.sec-4-girl {
+    margin-top: 1em;
+}
+
+.sec4-hw-guy {
+    margin-top: 2em;
+}
+
+.sec5-hw-sign {
+    margin-top: 0;
+}
+
+.sec5-girl-glasses {
+    margin-top: 2em;
+}
+
+.sec6-celeb-girl {
+    margin-top: 0;
+}
+
+.sec6-venice-guy {
+    margin-top: 2em;
+}
+
+.sec7-90210-girl-lt {
+    margin-top: 0;
+    position: relative;
+}
+.btn-color-01 {
+  background-image: url('../imgs/sec7_lower_nav_button-bg-sm2.png') !important;
+  max-width: 100%;
+  width: 322px;
+  height: 48px;
+   max-height: auto;
+   margin-top: 0em;
+   padding: 9px 24px;
+}
+
+.sec2_celebwishes-bg {
+    background-image: url("../imgs/dest_sexy_sec2_Celebrity-wishes-sm.png");
+    max-width: 100%;
+    width: 322px;
+    height: 109px;
+}
+
+}
+ 
+@media only screen and (max-width : 360px){
+ 
+.sec2_swingirl-bg {
+    margin-top: 2em;
+
+}
+
+.sec2_celebwishes-bg {
+    background-image: url("../imgs/dest_sexy_sec2_Celebrity-wishes-sm.png");
+    max-width: 100%;
+    width: 100%;
+    height: 109px;
+}
+.sec-4-girl {
+    margin-top: 1em;
+}
+
+.sec5-hw-sign {
+    margin-top: 0;
+}
+
+.sec5-girl-glasses {
+    margin-top: 2em;
+}
+
+.sec6-celeb-girl {
+    margin-top: 0;
+}
+
+.sec6-venice-guy {
+    margin-top: 2em;
+}
+
+.sec7-90210-girl-lt {
+    margin-top: 0;
+    position: relative;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+ .left-padding     {
+    padding-left: 15px !important;
+}
+/* ====  headline section ==== */
+
+
+.headline-bg {
+  background-image: url('../imgs/sec7_lower_nav_button-bg-sm2.png') !important;
+  max-width: 100%;
+  width: 100%;
+  height: 48px;
+   max-height: auto;
+     font-size: 1em !important;
+}
+
+ 
+h1.transition-headline {
+    text-transform: uppercase;
+    padding: 15px;
+   
+  }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: left;
+}
+  h1.transition-headline {
+   /* font-size: 1.6em !important;*/
+}
+
+.la::after, .ny::after, .lv::after, .mia::after {
+  display: inline-block;
+  padding-left: 1.5em;
+  content: "";
+  color: gray;
+}
+
+
+.btn-color-01 {
+  background-image: url('../imgs/sec7_lower_nav_button-bg-sm2.png') !important;
+  max-width: 100%;
+  width: 322px;
+  height: 48px;
+   max-height: auto;
+   margin-top: 0em;
+   padding: 9px 24px;
+}
+
+
+.sec4-hw-guy {
+  margin-top: 0em;
+
+}
+
+.transition-headline {
+
+    font-size: 1.5em;
+}
+
+/*.fade-in.letter-2,
+.fade-in.letter-3,
+.fade-in.letter-4,
+.fade-in.letter-5,
+.fade-in.letter-6,
+.fade-in.letter-7,
+.fade-in.letter-8, 
+.fade-in.letter-9,
+.fade-in.letter-10,
+.fade-in.letter-11
+.fade-in.letter-12,
+.fade-in.letter-13,
+.fade-in.letter-14,
+.fade-in.letter-15,
+.fade-in.letter-16,
+.fade-in.letter-17,
+.fade-in.letter-18, {
+  font-size: 16px !important;
+}
+*/
+
+}
+
